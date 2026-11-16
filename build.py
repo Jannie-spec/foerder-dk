@@ -114,7 +114,7 @@ HOME = page("", "Førder – butik og fælles reception i Gudhjem, Bornholm",
 <div class="gallery">
 {img('foerder-butik-1.jpg', 'Bornholmske varer på hylderne i Førder')}
 {img('foerder-2.jpg', 'Inde i butikken Førder')}
-{img('Udefra jul aften.jpg', 'Førders butik i Brøddegade 28 pyntet med lys ved juletid')}
+{img('Udefra%20jul%20aften.jpg', 'Førders butik i Brøddegade 28 pyntet med lys ved juletid')}
 </div>
 <div class="btns"><a class="btn" href="{link('/butikken')}">Se hvad vi har</a></div>
 </div></section>""")
