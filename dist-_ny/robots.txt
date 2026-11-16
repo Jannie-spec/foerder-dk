@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /_ny/
+Disallow: /_wsb-backup/
+
+Sitemap: https://foerder.dk/sitemap.xml

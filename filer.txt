@@ -1,0 +1,11 @@
+.htaccess
+404.html
+assets/fonts/source-sans.woff2
+assets/fonts/source-serif-italic.woff2
+assets/fonts/source-serif.woff2
+assets/site.css
+butikken.html
+index.html
+reception.html
+robots.txt
+sitemap.xml
