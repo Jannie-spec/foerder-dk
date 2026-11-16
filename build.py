@@ -81,7 +81,7 @@ def page(slug, title, desc, body):
 <p><a href="mailto:{EMAIL}">{EMAIL}</a><br><a href="tel:{PHONE_TEL}">{PHONE}</a></p></div>
 <div><h4>Overnatning</h4><ul>{''.join(f'<li><a href="{u}">{n}</a></li>' for n, u in PLACES)}</ul></div>
 <div><h4>Følg Førder</h4><ul><li><a href="{FB}" rel="noopener">Facebook</a></li><li><a href="{IG}" rel="noopener">Instagram</a></li></ul>
-<p class="small">En del af <a href="https://www.hotelklippen.com">Klippen Hotel</a></p></div>
+<p class="small">En del af <a href="https://www.hotelklippen.com">Klippen Hotel</a>, drevet af <a href="https://janniebuchthorborg.dk/">Jannie og Martin Buch Thorborg</a></p></div>
 </div></footer>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "{CF_TOKEN}"}}'></script>
 </body>
