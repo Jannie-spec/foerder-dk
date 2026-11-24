@@ -25,6 +25,10 @@ PLACES = [("Grevens Dal", "https://www.hotelklippen.com/grevens-dal-gudhjem"),
           ("Therns Hostel", "https://therns.dk/")]
 
 
+# Julekalender-banner (1.–24. dec 2026). Slet filen julekalender-banner.html efter jul, så forsvinder banneret.
+_JKB = Path(__file__).with_name("julekalender-banner.html")
+JK_BANNER = _JKB.read_text(encoding="utf-8") if _JKB.exists() else ""
+
 def link(path):
     return BASE + path
 
@@ -100,7 +104,7 @@ HOME = page("", "Førder – butik og fælles reception i Gudhjem, Bornholm",
 <p class="lead">Førder er en butik med udvalgte bornholmske varer og fælles reception for Klippen Hotel og Therns Hostel i Gudhjem. Du finder os i Brøddegade 28.</p>
 <div class="btns"><a class="btn" href="{link('/reception')}">Besøg os</a><a class="btn ghost" href="{link('/butikken')}">Se butikken</a></div></div>
 <figure class="tall"><img src="{M}Udefra.jpg" alt="Førders butik og fælles reception i Brøddegade 28, Gudhjem"><figcaption>Førder i Brøddegade 28</figcaption></figure>
-</div></section>
+</div></section>{JK_BANNER}
 <section><div class="wrap split">
 <div><h2>Fælles reception</h2>
 <p>Førder er fælles reception for {places_inline()}. Kig ind i Brøddegade 28, så hjælper vi dig godt i gang med opholdet i Gudhjem.</p>
